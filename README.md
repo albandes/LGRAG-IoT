@@ -35,3 +35,45 @@ Each scenario is labeled with the expected compliance status according to simpli
 📊 [Dataset IoT LGPD Compliance (CSV)](
 https://raw.githubusercontent.com/albandes/LGRAG-IoT/main/dataset/iot_lgpd_compliance_dataset_500.csv
 ) - Click to download
+
+
+## Fields
+
+| Column | Description |
+|------|------|
+| event_id | Unique identifier of the scenario |
+| device_type | Type of IoT device |
+| data_type | Type of collected data |
+| data_subject | Data subject category |
+| purpose | Declared purpose of processing |
+| data_storage | Data storage location |
+| data_shared | Whether the data is shared with third parties |
+| legal_basis | Declared legal basis |
+| retention_days | Data retention period |
+| anonymized | Whether the data is anonymized |
+| consent | Whether consent was obtained |
+| compliance_expected | Expected compliance label (1 = compliant, 0 = non-compliant) |
+| scenario_description | Short textual description |
+
+## Compliance Label
+
+The label is generated using simplified LGPD-inspired rules combining:
+
+- legal basis
+- consent
+- data sharing
+- anonymization
+
+## Intended Use
+
+This dataset can be used to evaluate:
+
+- LLM-based compliance verification
+- Retrieval-Augmented Generation systems
+- Explainable AI in legal contexts
+- IoT privacy monitoring architectures
+
+## License
+
+This dataset is synthetic and provided for **research and educational purposes**.
+
