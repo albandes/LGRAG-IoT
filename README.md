@@ -32,3 +32,6 @@ The dataset contains **500 synthetic IoT data processing scenarios**, each descr
 Each scenario is labeled with the expected compliance status according to simplified LGPD rules.
 
 ## File
+📊 [Dataset IoT LGPD Compliance (CSV)](
+https://raw.githubusercontent.com/albandes/LGRAG-IoT/main/dataset/iot_lgpd_compliance_dataset_500.csv
+) - Click to download
